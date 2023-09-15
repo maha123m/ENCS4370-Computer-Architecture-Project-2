@@ -3,7 +3,7 @@
 ## Objectives:
 This project aims to design and verify a basic RISC processor using Verilog. The processor is defined by the following specifications:
 
-  ### Processor Specifications:
+  ### Processor Specifications:  
 
     1) Instruction size: 32 bits
     2) 32-bit general-purpose registers (R0 to R31)
