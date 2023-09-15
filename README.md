@@ -19,7 +19,7 @@ This project aims to design and verify a basic RISC processor using Verilog. The
    * Common Fields:
       1) 2-bit instruction type (00: R-Type, 01: J-Type, 10: I-Type, 11: S-Type)
       2) 5-bit function code
-      3) Stop bit (marks the end of a function code block)
+      3) Stop bit (marks the end of a function code block)  
   
    
    * Instruction Formats:
