@@ -30,17 +30,19 @@ This project aims to design and verify a basic RISC processor using Verilog. The
       3) 5-bit Rs2 (second source register)
       4) 9-bit unused
    ##### I-Type (Immediate Type) Format:
-5-bit Rs1 (first source register)
-5-bit Rd (destination register)
-14-bit immediate (unsigned for logic instructions, signed otherwise)
-J-Type (Jump Type) Format:
-24-bit signed immediate (jump offset)
-S-Type (Shift Type) Format:
-5-bit Rs1 (first source register)
-5-bit Rd (destination register)
-5-bit Rs2 (second source register) for variable shift amounts
-5-bit SA (constant shift amount)
-4-bit unused
+      1) 5-bit Rs1 (first source register)
+      2) 5-bit Rd (destination register)
+      3) 14-bit immediate (unsigned for logic instructions, signed otherwise)
+      
+   ##### J-Type (Jump Type) Format:
+      1) 24-bit signed immediate (jump offset)
+      
+   ##### S-Type (Shift Type) Format:
+      1) 5-bit Rs1 (first source register)
+      2) 5-bit Rd (destination register)
+      3) 5-bit Rs2 (second source register) for variable shift amounts
+      4) 5-bit SA (constant shift amount)
+      5) 4-bit unused
 Instructions' Encoding:
 
 A subset of instructions is implemented, including AND, ADD, SUB, CMP, ANDI, ADDI, LW, SW, BEQ, J, JAL, SLL, SLR, SLLV, and SLRV.
