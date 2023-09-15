@@ -16,20 +16,20 @@ This project aims to design and verify a basic RISC processor using Verilog. The
     
   ### Instruction Types and Formats:
 
-   * Common Fields:
+   #### Common Fields:
       1) 2-bit instruction type (00: R-Type, 01: J-Type, 10: I-Type, 11: S-Type)
       2) 5-bit function code
       3) Stop bit (marks the end of a function code block)  
   
    
-   * Instruction Formats:
+   #### Instruction Formats:
 
-==>  R-Type (Register Type) Format:
+   #####  R-Type (Register Type) Format:
       1) 5-bit Rs1 (first source register)
       2) 5-bit Rd (destination register)
       3) 5-bit Rs2 (second source register)
       4) 9-bit unused
-I-Type (Immediate Type) Format:
+   ##### I-Type (Immediate Type) Format:
 5-bit Rs1 (first source register)
 5-bit Rd (destination register)
 14-bit immediate (unsigned for logic instructions, signed otherwise)
