@@ -43,29 +43,28 @@ This project aims to design and verify a basic RISC processor using Verilog. The
       3) 5-bit Rs2 (second source register) for variable shift amounts
       4) 5-bit SA (constant shift amount)
       5) 4-bit unused
-Instructions' Encoding:
 
-A subset of instructions is implemented, including AND, ADD, SUB, CMP, ANDI, ADDI, LW, SW, BEQ, J, JAL, SLL, SLR, SLLV, and SLRV.
-RTL Design Options:
+      
+ ### Instructions' Encoding:
+ 
+      * A subset of instructions is implemented, including AND, ADD, SUB, CMP, ANDI, ADDI, LW, SW, BEQ, J, JAL, SLL, SLR, SLLV, and SLRV.
+ ### summary
+ This project involves designing, implementing, and verifying a RISC processor in Verilog, emphasizing correct functionality, comprehensive testing, and clear documentation.
 
-Three design options: Single cycle processor (80% grade), Multi-cycle processor (100% grade), and 5-stage pipelined processor (up to 120% with a bonus).
-Verification:
 
-Verification is performed by creating a testbench for the RTL design.
-Various code sequences in the given ISA are executed to demonstrate correct functionality.
-Project Report:
+ ## Results
 
-Design and Implementation:
+<div>
+  <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/7c3af2c7-2ec9-4fd9-87a3-7d98ca228c70" width="900" height="200"> 
 
-Detailed data path description, component explanation, and design choices rationale.
-Block diagrams of component circuits and the overall data path.
-Clear description of control logic and control signals.
-Control signal values and logic equations for each instruction.
-Proper attribution of any non-original design elements.
-Simulation and Testing:
+  <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/1fc65742-42df-4594-adb6-6b4d71c7e3b3" width="900" height="200"> 
 
-Thorough simulation of the processor.
-Description of test programs, including inputs and expected outputs.
-Listing of tested instructions with results.
-Presentation of simulator snapshots showing test program execution.
-This project involves designing, implementing, and verifying a RISC processor in Verilog, emphasizing correct functionality, comprehensive testing, and clear documentation.
+  <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/e983dae5-e5f2-415f-8d7c-bb905b6f0ab0" width="900" height="200"> 
+
+  <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/6ef57ad1-e730-4f42-bdab-79b6135e0278" width="900" height="400"> 
+  
+  <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/997c3e40-4e63-45d9-b991-ba628c588077" width="900" height="400"> 
+
+   
+</div>
+
