@@ -66,14 +66,14 @@ This project aims to design and verify a basic RISC processor using Verilog. The
 
   <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/6ef57ad1-e730-4f42-bdab-79b6135e0278" width="900" height="400"> 
 
-  ## Partner
-    Maha Mali 1200746
-    Lama Nasser 1200190
-    Basheer Arouri 1201141
-  
   
   <img src ="https://github.com/maha123m/ENCS4370-Computer-Architecture-Project-2/assets/99613493/997c3e40-4e63-45d9-b991-ba628c588077" width="900" height="400"> 
 
    
 </div>
 
+ ## Partner
+    Maha Mali 1200746
+    Lama Nasser 1200190
+    Basheer Arouri 1201141
+  
