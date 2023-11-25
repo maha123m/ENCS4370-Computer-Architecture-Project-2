@@ -1,12 +1,12 @@
-# ENCS4370-Computer-Architecture-Project-2
+# ENCS4370-Computer-Architecture-Project-2 
 
 ## Objectives:
-This project aims to design and verify a basic RISC processor using Verilog. The processor is defined by the following specifications:
+This project aims to design and verify a basic RISC processor using Verilog. The processor is defined by the following specifications: 
 
-  ### Processor Specifications:  
+  ### Processor Specifications:   
 
     1) Instruction size: 32 bits 
-    2) 32-bit general-purpose registers (R0 to R31) 
+    2) 32-bit general-purpose registers (R0 to R31)  
     3) Special purpose register for the program counter (PC) 
     4) Control stack to save return addresses   
     5) Stack pointer (SP) to point to the top of the control stack (initialized to zero) 
@@ -47,7 +47,7 @@ This project aims to design and verify a basic RISC processor using Verilog. The
       
  ### Instructions' Encoding:
  
-      * A subset of instructions is implemented, including AND, ADD, SUB, CMP, ANDI, ADDI, LW, SW, BEQ, J, JAL, SLL, SLR, SLLV, and SLRV.
+      * A subset of instructions is implemented, including AND, ADD, SUB, CMP, ANDI, ADDI, LW, SW, BEQ, J, JAL, SLL, SLR, SLLV, and SLRV. 
  ### summary
  This project involves designing, implementing, and verifying a RISC processor in Verilog, emphasizing correct functionality, comprehensive testing, and clear documentation.
 
